@@ -11,7 +11,6 @@ namespace _24SOECE13043_Dharmraj_sodha.LAB1
         static void Main(string[] args)
 
         {
-
             int a, b, c, result;
 
             Console.Write("Enter Number   1: ");
@@ -31,7 +30,7 @@ namespace _24SOECE13043_Dharmraj_sodha.LAB1
 
 
             Console.Write("Enter Number   3 : ");
-            str = Console.ReadLine()
+            str = Console.ReadLine();
             c = Convert.ToInt32(str);
             result = Sum(a, b, c);
 
