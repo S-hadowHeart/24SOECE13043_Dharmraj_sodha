@@ -1,5 +1,5 @@
 ﻿using System;
-using System.Security.Cryptography.X509Certificates;
+using System.Collections.Generic;
 
 namespace _24SOECE13043_Dharmraj_sodha.LAB1
 {
@@ -7,10 +7,37 @@ namespace _24SOECE13043_Dharmraj_sodha.LAB1
     {
         public static void Main(string[] args)
         { 
-            int num = 0;
-            Console.Write("Enter Number: ");
-            num = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Enter a number: ");
+            string input = Console.ReadLine();
 
+            Dictionary<char, string> digitWords = new Dictionary<char, string>()
+            {
+                { '0', "Zero" },
+                { '1', "One" },
+                { '2', "Two" },
+                { '3', "Three" },
+                { '4', "Four" },
+                { '5', "Five" },
+                { '6', "Six" },
+                { '7', "Seven" },
+                { '8', "Eight" },
+                { '9', "Nine" }
+            };
+
+            if (!long.TryParse(input, out _))
+            {
+                Console.WriteLine("Invalid input! Please enter digits only.");
+                return;
+            }
+
+            foreach (char digit in input)
+            {
+                Console.Write(digitWords[digit] + " ");
+            }
+
+            Console.WriteLine()
         }
+
     }
 }
+
