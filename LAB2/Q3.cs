@@ -1,4 +1,3 @@
-// This is Q3.cs
 using System;
 using System.Runtime.InteropServices;
 

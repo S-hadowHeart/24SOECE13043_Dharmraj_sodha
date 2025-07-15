@@ -1,4 +1,3 @@
-// This is Q2.cs
 using System;
 
 class Q2
