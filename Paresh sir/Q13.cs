@@ -12,6 +12,9 @@ namespace _24SOECE13043_Dharmraj_sodha.Paresh_sir
         {
             Console.Write("Enter a number for patten: ");
             int num = Convert.ToInt32(Console.ReadLine());
+
+            //Method 1:
+
             //string sym = "#";
             //int toggle = 0;
             //for (int i = 0; i < num; i++)
@@ -34,6 +37,8 @@ namespace _24SOECE13043_Dharmraj_sodha.Paresh_sir
             //    Console.WriteLine();
             //}
 
+
+            //Method 2:
             //for (int i = 0; i < num; i++)
             //{
             //    for (int j = 0; j <= i; j++)
@@ -60,10 +65,13 @@ namespace _24SOECE13043_Dharmraj_sodha.Paresh_sir
             //                Console.Write("*");
             //            }
             //        }
-                    
+
             //    }
             //    Console.WriteLine();
             //}
+
+
+            // Method 2 updated version :
 
             //for (int i = 1; i <= num; i++)
             //{ 
@@ -81,7 +89,8 @@ namespace _24SOECE13043_Dharmraj_sodha.Paresh_sir
             //    Console.WriteLine();
             //}
 
-
+            // Accoding for me optimal Method : 
+    
             for (int i = 1; i <= num; i++)
             {
                 for (int j = 1; j <= i; j++)
