@@ -16,7 +16,27 @@ namespace _24SOECE13043_Dharmraj_sodha.Ms_challenge
             string permission = ((i == 0) ? "Admin" :((i == 1)? "Manager": "User"));
             int level = random.Next(0,61);
             Console.WriteLine($"Current user : {permission} on Level {level}");
-            Console.WriteLine($"{((permission == "Admin") ? ((level > 55) ? "Welcome, Super Admin user." : "Welcome, Admin user.") : ((permission == "Manager") ? ((level > 20) ? "Contact an Admin for access." : "You do not have sufficient privileges.") : "You do not have sufficient privileges."))}");
+            Console.WriteLine($"" +
+            $"{
+                (
+                    (permission == "Admin") ? 
+                        (
+                            (level > 55) ? 
+                                "Welcome, Super Admin user." :
+                            "Welcome, Admin user."
+                        ) :
+                    (
+                        (permission == "Manager") ? 
+                            (
+                                (level > 20) ?
+                                    "Contact an Admin for access." :
+                                "You do not have sufficient privileges."
+                             ):
+                        "You do not have sufficient privileges."
+                    )
+                )
+              }");
+
 
         }
     }
