@@ -8,4 +8,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Include="Ms challenge\GuidedProject\Final\Final.csproj" />
+    <None Include="Ms challenge\GuidedProject\Starter\Starter.csproj" />
+  </ItemGroup>
+
 </Project>
