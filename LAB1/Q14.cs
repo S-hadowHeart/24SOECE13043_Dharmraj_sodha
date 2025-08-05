@@ -35,7 +35,7 @@ namespace _24SOECE13043_Dharmraj_sodha.LAB1
                 Console.Write(digitWords[digit] + " ");
             }
 
-            Console.WriteLine()
+            Console.WriteLine();
         }
 
     }

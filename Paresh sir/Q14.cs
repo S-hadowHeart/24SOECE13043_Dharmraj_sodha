@@ -8,6 +8,11 @@ namespace _24SOECE13043_Dharmraj_sodha.Paresh_sir
 {
     internal class Q14
     {
+        /// <summary>
+        /// This Method is used to run main programs , 
+        /// </summary>
+        /// <param name="args">Ref Parameters</param>
+        /// 
         public static void Main(string[] args)
         {
             decimal num1, num2, result;
@@ -38,8 +43,15 @@ namespace _24SOECE13043_Dharmraj_sodha.Paresh_sir
 
         }
 
+        /// <summary>
+        /// Hello hi hi 
+        /// </summary>
+        /// <param name="a"></param>
+        /// <param name="b"></param>
         static void swap(ref decimal a, ref decimal b)
         {
+            
+
             // Swapping using a temporary variable
             //decimal temp = a;
             //a = b;

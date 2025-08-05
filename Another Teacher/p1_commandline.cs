@@ -10,7 +10,9 @@ namespace _24SOECE13043_Dharmraj_sodha.Another_Teacher
     {
         public static void Main(string[] args)
         {
-            // Check if any command line arguments are provided
+            //Console.WriteLine("My name: " + args[0]);
+            //Console.WriteLine("My age: " + args[1]);
+            //// Check if any command line arguments are provided
             if (args.Length == 0)
             {
                 Console.WriteLine("No command line arguments provided.");
