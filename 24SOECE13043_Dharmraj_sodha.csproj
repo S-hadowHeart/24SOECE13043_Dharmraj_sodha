@@ -13,4 +13,8 @@
     <None Include="Ms challenge\GuidedProject\Starter\Starter.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="LAB7\" />
+  </ItemGroup>
+
 </Project>
